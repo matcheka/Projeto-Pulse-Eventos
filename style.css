@@ -1,0 +1,124 @@
+body{
+    background-color: #d0dbf8;
+}
+div{
+    border-radius: 8px;
+    padding: 8px;
+}
+#telaInicial{
+    margin-bottom: 0;
+}
+.fixed{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+menu{
+    background-color: #260D61;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    height: 75px;
+    width: 97%;
+    position: relative;
+    z-index: 1000;
+    border-radius: 8px;
+    margin: 15px;
+}
+.menu-itens{
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    display: inline-block;
+}
+.menu-itens:hover{
+    background-color: #d0dbf8;
+    color: #260D61;
+    width: 220px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+#titulo1{
+    margin-top: 7%;
+}
+.caixa1{
+    padding: 15px;
+    background-color: #abbff5;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.carrosselCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+h1{
+    font-family: Cambria, 'Courier New', Courier, monospace;
+    color: #260D61;
+    font-size: 40px;
+}
+h6{
+    font-family: Cambria, 'Courier New', Courier, monospace;
+    color: #35157e;
+    font-size: 22px;
+}
+p,td{
+    font-family: Cambria, 'Courier New', Courier, monospace;
+    color: #260d61;
+    font-size: 20px;
+}
+tr{
+    font-size: 18px;
+    gap: 1rem;
+}
+img,video{
+    border-radius: 8px;
+}
+.card{
+    height: 760px;
+}
+footer{
+    background-color: #260D61;
+    height: 50px;
+    color: aliceblue;
+    justify-items: center;
+    padding-top: 1%;
+    margin-bottom: 0%;
+}
+section{
+    /*Estilizando a fonte do texto que está dentro da section*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*O design abaixo refere-se à estilização da tabela, porém devido as estilizações de seus elementos thead e tbody ela acabou ficando obsoleta, não aparece na página(neste caso em específico)*/
+table{
+    border: 1px solid;/*Cria uma borda de 1px de altura e dashed é a borda do tipo pontilhada(neste caso, solid é a borda normal)*/
+    border-color: #260D61;/*Aplica cor à borda*/
+}
+thead{/*Estilização do cabeçalho- 1ª linha da tabela*/
+    background-color: #260D61;
+    color: #d0dbf8;/*Cor do texto*/
+    height: 15px;/*Altura da 1ª linha*/
+}
+th{/*Estiliza cada célula do cabeçalho*/
+    width: 150px;/*Largura da célula*/
+    text-align: center;/*Alinha os textos*/
+    border: 2px solid;/*Define a borda(aqui, largura do traço e depois estilo)*/
+    border-color: #d0dbf8;/*Define a cor da borda*/
+}
+tbody{/*Estiliza o corpo da tabela- todas as linhas exceto a primeira*/
+    background-color: #b399f0;/*Cor de fundo*/
+}
+td{/*Estiliza cada célula do corpo da tabela*/
+    text-align: center;
+    border: #d0dbf8 solid;
+}
